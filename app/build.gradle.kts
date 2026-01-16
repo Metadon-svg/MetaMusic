@@ -13,6 +13,9 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
+        
+        // Добавьте эту строку для поддержки vector drawables
+        vectorDrawables.useSupportLibrary = true
     }
 
     buildTypes {
